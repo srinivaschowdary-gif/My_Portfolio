@@ -1,21 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Srinivas Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Srinivas Chowdary | Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
 </head>
 
 <body>
 
-<h1>Srinivas Chowdary</h1>
-<p>Aspiring Software Developer</p>
+<div id="particles-js"></div>
 
-<h2>My Links</h2>
+<header>
 
-<a href="https://www.linkedin.com/in/your-linkedin-id">LinkedIn</a>
+<nav>
 
-<br><br>
+<h2 class="logo">Srinivas</h2>
 
-<a href="resume.pdf">Download Resume</a>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1 data-aos="fade-up">Hi, I'm Srinivas Chowdary</h1>
+
+<h2>I am a <span id="typing"></span></h2>
+
+<div class="buttons">
+
+<a href="resume.pdf" class="btn">Resume</a>
+
+<a href="https://www.linkedin.com/in/your-linkedin-id" class="btn">LinkedIn</a>
+
+<a href="https://github.com/yourusername" class="btn">GitHub</a>
+
+</div>
+
+</section>
+
+
+<section id="about" data-aos="fade-up">
+
+<h2>About Me</h2>
+
+<p>
+Passionate software developer interested in building scalable web
+applications and solving real world problems.
+</p>
+
+</section>
+
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="card">Java</div>
+<div class="card">HTML</div>
+<div class="card">CSS</div>
+<div class="card">JavaScript</div>
+<div class="card">Git</div>
+<div class="card">SQL</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card" data-aos="zoom-in">
+
+<img src="images/project1.png">
+
+<h3>Portfolio Website</h3>
+
+<p>Modern developer portfolio.</p>
+
+<a href="#">View</a>
+
+</div>
+
+
+<div class="project-card" data-aos="zoom-in">
+
+<img src="images/project2.png">
+
+<h3>Java Project</h3>
+
+<p>Console based application.</p>
+
+<a href="#">View</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Send</button>
+
+</form>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Srinivas Chowdary</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init();
+</script>
 
 </body>
 
